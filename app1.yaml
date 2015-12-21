@@ -1,0 +1,9 @@
+application: myapplication4521
+version: python-oauth 
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: .*
+  script: helloworld.app
